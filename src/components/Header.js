@@ -1,14 +1,10 @@
-import React from "react";
+import React from 'react';
 
 function Header() {
   return (
     <header>
-      <h1>
-        Plantsy
-        <span className="logo" role="img">
-          🌱
-        </span>
-      </h1>
+      <h1>Plantsy</h1>
+      <h2>The admin panel for your plant store</h2>
     </header>
   );
 }
